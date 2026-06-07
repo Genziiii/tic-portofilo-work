@@ -1,0 +1,153 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc; 
+    color: #1e293b;            
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background-color: #0f172a; 
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px 80px 20px;
+}
+.navbar {
+    margin-bottom: 60px;
+}
+.navbar a {
+    color: #94a3b8; 
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.navbar a:hover {
+    color: #ffffff;
+}
+.hero h1 {
+    font-size: 3.2rem;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.hero p {
+    color: #38bdf8; 
+    font-size: 0.95rem;
+    letter-spacing: 3px;
+    margin: 12px 0 0 0;
+}
+
+.intro-bar {
+    background-color: #1e293b; 
+    color: #f1f5f9;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.intro-bar p {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.section-block {
+    margin-bottom: 50px;
+}
+.section-block h2 {
+    font-size: 1.6rem;
+    color: #0f172a;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.project-item {
+    display: block;
+    padding: 25px 0;
+    border-bottom: 1px solid #e2e8f0; 
+}
+.project-item:last-child {
+    border-bottom: none; 
+}
+.project-item h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.25rem;
+    color: #0f172a;
+}
+.project-title-link {
+    color: #0f172a;
+    text-decoration: none;
+}
+.project-title-link:hover {
+    color: #0284c7;
+    text-decoration: underline;
+}
+.project-item p {
+    margin: 0 0 12px 0;
+    color: #475569;
+    font-size: 0.95rem;
+}
+.project-item p:last-child {
+    margin-bottom: 0;
+}
+
+.pdf-direct-link {
+    color: #0284c7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.pdf-direct-link:hover {
+    color: #0369a1;
+    text-decoration: underline;
+}
+
+.contact-section {
+    text-align: center;
+    margin-top: 60px;
+}
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0f172a;
+    border: 1px solid #cbd5e1; 
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+.btn:hover {
+    background-color: #0f172a;
+    color: #ffffff;
+    border-color: #0f172a;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #0f172a;
+    color: #64748b;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .hero h1 { font-size: 2.3rem; }
+    .contact-buttons { flex-direction: column; gap: 10px; }
+}
